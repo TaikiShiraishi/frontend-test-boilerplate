@@ -1,5 +1,5 @@
-module.exports = {
-  add : function (value1, value2) {
-    return value1 + value2;
-  }
+const add = function (value1, value2) {
+  return value1 + value2;
 };
+
+export default add;
