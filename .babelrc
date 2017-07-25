@@ -1,8 +1,6 @@
 {
   "presets": [
-    "es2015"
-  ],
-  "plugins": [
-    "babel-plugin-espower"
+    "es2015",
+    "babel-preset-power-assert"
   ]
 }
