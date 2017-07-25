@@ -1,4 +1,4 @@
-import assert from 'power-assert';
+import * as assert from 'power-assert';
 import add  from '../src/calc-util.js';
 
 describe('add関数のテスト', function() {

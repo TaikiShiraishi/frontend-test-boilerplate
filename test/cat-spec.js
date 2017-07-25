@@ -1,4 +1,4 @@
-import assert from 'power-assert';
+import * as assert from 'power-assert';
 import Cat from '../src/cat';
 
 describe('Cat', () => {
