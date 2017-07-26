@@ -1,15 +1,17 @@
-# Enviroment
+# Mocha + Karma + power-assert + Babel + Webpack Test Boilerplate
+
+## Enviroment
 
 - Node.js(v8.2.0)
 - npm(v5.3.0)
 
-# Installation
+## Installation
 
 ```
 $ npm install
 ```
 
-# Test run
+## Test run
 
 ```
 $ npm test
