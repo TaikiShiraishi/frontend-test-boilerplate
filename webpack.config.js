@@ -1,5 +1,12 @@
 module.exports = {
   devtool: 'source-map',
+  entry: {
+    app: './src/index.js'
+  },
+  output: {
+    path: __dirname + '/dist/',
+    filename: '[name].bundle.js'
+  },
   module: {
     rules: [
       {
@@ -16,12 +23,5 @@ module.exports = {
         ]
       }
     ]
-  },
-  entry: {
-    app: './src/index.js'
-  },
-  output: {
-    path: __dirname + '/dist/',
-    filename: '[name].bundle.js'
   }
 };
